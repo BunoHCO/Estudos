@@ -5,6 +5,6 @@ print("=======")
 
 for i in range (10):
     soma = num * contador
-    print("{}x{}={}".format(num, contador, soma))
+    print("{} x {:2} = {}".format(num, contador, soma))
     contador = contador +1
 print("=======")    
