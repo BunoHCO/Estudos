@@ -7,6 +7,7 @@ print(frase.upper())#deixa tudo em maíusculo
 print(frase.lower())#deixa tudo em minúsculo
 print(frase.count("a"))#conta quantas letras "a" tem na frase
 print(frase.find("oi"))#procura uma palavra na frase e mostra em qual indicie começa e se esta na frase
+print(frase.strip())#elimina espaços inuteis na frase
 print(len(frase))#mostra o comprimento da frase
 print(frase.replace("Manipulando", "Mexendo"))#Renomeia a palavra que voce quer por outro (sem salvar)
 print("texto" in frase)#mostra se a palvra esta escrita no texto
