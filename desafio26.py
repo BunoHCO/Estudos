@@ -1,0 +1,5 @@
+frase = str(input("Digite uma frase: ")).upper().strip()
+letra = str(input("Digite qual Letra voce quer saber: ")).upper()
+print('A Letra {} apareceu {} vezes!'.format(letra, frase.count(letra)))
+print('A primeira letra {} apareceu na {}° posição'.format(letra, frase.find(letra)+1))
+print('A ultima letra {} apareceu na {}° posição'.format(letra, frase.rfind(letra)+1))
