@@ -3,6 +3,8 @@ print(frase[3])#pega o terceiro caracter da frase
 print(frase[3:13])#pega do terceiro até o décimo segundo caracter da frase
 print(frase[1:13:2])#pega do caracter de indice 1 até o décimo segundo pulano 2 letras
 print(frase[::2])#pula e mostra a cada 2 letras do começo até o fim da frase
+print(frase.capitalize())#faz com que a primeira letra da frase fique em maíusculo
+print(frase.title())#faz com que após um espaço todas a primeiras letras das palavras fiquem em maiúsculo
 print(frase.upper())#deixa tudo em maíusculo
 print(frase.lower())#deixa tudo em minúsculo
 print(frase.count("a"))#conta quantas letras "a" tem na frase
